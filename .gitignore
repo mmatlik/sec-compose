@@ -1,6 +1,0 @@
-# Mysql data
-data/
-__tmp
-
-# Docker
-docker-compose.override.yml
