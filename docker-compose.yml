@@ -15,7 +15,7 @@ services:
     build:
       context: ../app-sec-rest-api
     ports:
-      - '8080:8080'
+      - '8087:8080'
     volumes:
       - '../app-sec-rest-api:/home/java/app'
     env_file:
