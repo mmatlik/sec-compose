@@ -12,12 +12,9 @@ services:
   sec-service:
     depends_on:
       - sec-db
-    build:
-      context: ../app-sec-rest-api
+    image: 'mmatlik/app-sec-rest-api'
     ports:
       - '8087:8080'
-    volumes:
-      - '../app-sec-rest-api:/home/java/app'
     env_file:
       - ./config/mysql.env
       - ./config/spring-api.env
