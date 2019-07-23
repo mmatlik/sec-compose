@@ -3,7 +3,7 @@ Docker compose and shell scripts for TalTech Master's Sec project
 
 ## Development environment
 
-Guides to setup the development environent.
+Guides to setup the development environment.
 
 ### Docker way
 Starting MySql database & web service:
