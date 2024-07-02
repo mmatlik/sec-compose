@@ -16,5 +16,5 @@ Accessing database locally via MySql client (*e.g. SQL Pro*):
 * **User:** root
 * **Password:** root
 * **Host:** localhost
-* **Port:** 3307
+* **Port:** 3306
 
